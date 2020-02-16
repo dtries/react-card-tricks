@@ -19,7 +19,11 @@ class Card extends Component {
 
                         <div className="back">
                             <div className="card-content">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c</p>
+                                <p className="backPara">{this.props.backText}</p>
+                                <div className="card-actions">
+                                    <a className="backLink1" href={this.props.link1} rel="noopener noreferrer" target="_blank">Site 1 </a>
+                                    <a className="backLink2"href={this.props.link2} rel="noopener noreferrer" target="_blank"> Site 2</a>
+                                </div>
                             </div>            
                         </div>
                 </div>
