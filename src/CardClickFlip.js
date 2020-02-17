@@ -13,9 +13,17 @@ class CardClickFlip extends Component {
   }
 
   handleClick(index) {
+    // console.log(e)
+    
     const newflipState = [...this.state.flipState];
     newflipState[index] = !this.state.flipState[index];
     this.setState({flipState: newflipState});
+  }
+
+  linkClick (e) {
+    e.stopPropagation();
+    console.dir(`linkClick works; e is: ${e}`);
+
   }
  
   render () {
@@ -34,6 +42,7 @@ class CardClickFlip extends Component {
                   backText={card.backText}
                   link1={card.link1}
                   link2={card.link2}
+                  linkClick={this.linkClick.bind(this)}
               />
             }
           );

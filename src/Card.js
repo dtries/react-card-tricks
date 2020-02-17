@@ -21,8 +21,15 @@ class Card extends Component {
                             <div className="card-content">
                                 <p className="backPara">{this.props.backText}</p>
                                 <div className="card-actions">
-                                    <a className="backLink1" href={this.props.link1} rel="noopener noreferrer" target="_blank">Site 1 </a>
-                                    <a className="backLink2"href={this.props.link2} rel="noopener noreferrer" target="_blank"> Site 2</a>
+                                    <a 
+                                        onClick={(e) => this.props.linkClick(e)}
+                                        className="backLink1" href={this.props.link1} rel="noopener noreferrer" target="_blank">
+                                            Site 1 
+                                    </a>
+                                    <a 
+                                        onClick={(e) => this.props.linkClick(e)}className="backLink2" href={this.props.link2} rel="noopener noreferrer" target="_blank"> 
+                                        Site 2
+                                    </a>
                                 </div>
                             </div>            
                         </div>
