@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 
-
-
 class Card extends Component {
 
     render() {
@@ -12,8 +10,8 @@ class Card extends Component {
                 <div onClick={ () => this.props.handleClick(this.props.index) }  className={cardClass} >
                         <div className="front" style={this.props.image} >
                             <div className="card-content">
-                                <p>Front: {this.props.frontTitle}</p>
-                                <span className="subtitleText">SubTitle: {this.props.frontSubTitle}</span>
+                                <p>{this.props.frontTitle}</p>
+                                <span className="subtitleText">{this.props.frontSubTitle}</span>
                             </div>
                         </div>
 

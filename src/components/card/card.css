@@ -1,0 +1,217 @@
+.card-wrapper {
+  width: calc(25% - 2rem);
+  margin: 1rem;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) drop-shadow(0 0 0 #eee);
+          filter: grayscale(100%) drop-shadow(0 0 0 #eee); 
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out;
+}
+
+.card {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;  
+}
+
+.front,
+.back {
+  background-size: cover;
+	background-position: center;
+	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	        transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	     -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	        transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	        transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden;
+	text-align: center;
+	min-height: 280px;
+	height: auto;
+	border-radius: 10px;
+	color: #fff;
+  font-size: 1.5rem;
+}
+
+.back{ /* back of card styling */
+  background: #cedce7;
+  background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+  background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+  background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+}
+
+.card-actions {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  width: 100%;
+}
+
+.backPara {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.backLink1 {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  /* width: 100%; */
+}
+
+.backLink2 {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+
+.front:after{	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+    opacity: 0.2;
+    background-color: #000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.card.flipped .front,
+.card.flipped .back{
+    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+         -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+            transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.card-content { /* Adust writing and other non-background card content */
+  -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+          transform: translateY(-50%) translateZ(60px) scale(0.94);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 1px solid transparent;
+  -webkit-perspective: inherit;
+          perspective: inherit;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.card .back{
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card .front{
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card.flipped .back{
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card.flipped .front{
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.front .card-content p{
+  color: #fff999;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.front .card-content p:after{
+  content: '';
+  width: 4rem;
+  height: 2px;
+  position: absolute;
+  background: #bfff0099;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -.75rem;
+}
+
+
+.subtitleText {
+  font-weight: 300;
+  color: #fff999;
+}
+
+.card:hover .front,
+.card:hover .back{
+  -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+.card-wrapper:hover {
+  -webkit-transform: rotateX(4deg) rotateY(1deg) rotateZ(0.3deg);
+          transform: rotateX(4deg) rotateY(1deg) rotateZ(0.3deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-filter: grayscale(0%) drop-shadow(11px 17px 5px #00000070);
+          filter: grayscale(0%) drop-shadow(11px 17px 5px #00000070);
+    -webkit-transition: all 0.6s ease-in-out;
+          transition: all 0.6s ease-in-out;
+
+}
+
+@media screen and (max-width: 64rem){
+  .card-wrapper{
+    width: calc(33.333333% - 2rem);
+  }
+}
+
+@media screen and (max-width: 48rem){
+  .card-wrapper{
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 32rem){
+  .card-wrapper{
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+}
+
+
+

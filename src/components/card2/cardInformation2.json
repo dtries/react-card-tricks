@@ -1,0 +1,40 @@
+[
+    {   "id": 1,
+        "name": "Relic Glow",
+        "subtitle": "the ancient past",
+        "backgroundImage": "https://images.pexels.com/photos/3287165/pexels-photo-3287165.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "backText": "A brief description of this card would go here. This is place holder text.",
+        "link1": "https://google.com",
+        "link2": "https://fledglingfitness.com",
+        "flipped": false
+    },
+    {
+        "id": 2,
+        "name": "Solitude",
+        "subtitle": "crown chakra ",
+        "backgroundImage": "https://images.pexels.com/photos/2138922/pexels-photo-2138922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "backText": " This card is different than the first. Its description would go here.",
+        "link1": "https://google.com",
+        "link2": "https://fledglingfitness.com",
+        "flipped": false
+    },
+    {   "id": 3,
+        "name": "Bumbling",
+        "subtitle": "a sweet buzz",
+        "backgroundImage": "https://images.pexels.com/photos/259611/pexels-photo-259611.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "backText": "A brief description of this card would go here. This is place holder text.",
+        "link1": "https://google.com",
+        "link2": "https://fledglingfitness.com",
+        "flipped": false
+    },
+    {
+        "id": 4,
+        "name": "City Sidewalks",
+        "subtitle": "the first snow",
+        "backgroundImage": "https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "backText": " This card is different than the first. Its description would go here.",
+        "link1": "https://google.com",
+        "link2": "https://fledglingfitness.com",
+        "flipped": false
+    }
+]
