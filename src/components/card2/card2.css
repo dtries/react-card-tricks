@@ -147,7 +147,7 @@
   
   .front2 .card2-content p{
     color: #fff999;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
     position: relative;
@@ -170,7 +170,8 @@
   }
   
 .subtitleText2 {
-  font-weight: 300;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-weight:400;
   color: #fff999;
 }
   
