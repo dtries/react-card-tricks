@@ -20,6 +20,7 @@ class Card2 extends Component {
                         <div className="back2">
                             <div className="card2-content">
                                 <p className="back2Para">{this.props.backText}</p>
+                                <p className="author2">{`${String.fromCharCode(8212)} ${this.props.author}`}</p>
                                 <div className="card2-actions">
                                     <a 
                                         onClick={(e) => this.props.linkClick(e)}

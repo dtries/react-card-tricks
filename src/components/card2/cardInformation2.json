@@ -3,38 +3,38 @@
         "name": "Relic Glow",
         "subtitle": "the ancient past",
         "backgroundImage": "https://images.pexels.com/photos/3287165/pexels-photo-3287165.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "backText": "A brief description of this card would go here. This is place holder text.",
+        "backText": "\"Let others praise ancient times; I am glad I was born in these.\"",
+        "author": "Ovid",
         "link1": "https://google.com",
-        "link2": "https://fledglingfitness.com",
-        "flipped": false
+        "link2": "https://fledglingfitness.com"
     },
     {
         "id": 2,
         "name": "Solitude",
         "subtitle": "ponder purple",
         "backgroundImage": "https://images.pexels.com/photos/2138922/pexels-photo-2138922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "backText": " This card is different than the first. Its description would go here.",
+        "backText": "\"I care for myself. The more solitary, the more friendless, the more unsustained I am, the more I will respect myself.\"",
+        "author": "Charlotte Brontë, Jane Eyre",
         "link1": "https://google.com",
-        "link2": "https://fledglingfitness.com",
-        "flipped": false
+        "link2": "https://fledglingfitness.com"
     },
     {   "id": 3,
         "name": "Bumbling",
         "subtitle": "a sweet buzz",
         "backgroundImage": "https://images.pexels.com/photos/259611/pexels-photo-259611.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "backText": "A brief description of this card would go here. This is place holder text.",
+        "backText": "\"You never can tell with bees.\"",
+        "author": "A.A. Milne, Winnie-the-Pooh",
         "link1": "https://google.com",
-        "link2": "https://fledglingfitness.com",
-        "flipped": false
+        "link2": "https://fledglingfitness.com"
     },
     {
         "id": 4,
         "name": "City Sidewalks",
         "subtitle": "first snow",
         "backgroundImage": "https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        "backText": " This card is different than the first. Its description would go here.",
+        "backText": "\"Snow was falling, so much like stars filling the dark trees that one could easily imagine its reason for being was nothing more than prettiness.\"",
+        "author": "Mary Oliver",
         "link1": "https://google.com",
-        "link2": "https://fledglingfitness.com",
-        "flipped": false
+        "link2": "https://fledglingfitness.com"
     }
 ]

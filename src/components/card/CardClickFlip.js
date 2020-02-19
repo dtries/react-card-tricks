@@ -33,6 +33,7 @@ class CardClickFlip extends Component {
                   frontSubTitle={card.subtitle}
                   image={{backgroundImage: `url(${card.backgroundImage})`}}
                   backText={card.backText}
+                  author={card.author}
                   link1={card.link1}
                   link2={card.link2}
                   linkClick={this.linkClick.bind(this)}

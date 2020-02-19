@@ -166,6 +166,21 @@
   position: relative;
 }
 
+.backPara{
+  color: #333;
+  font-weight: 600;
+  font-family: 'Annie Use Your Telescope', cursive;
+}
+
+.author {
+  color: #ddd;
+  padding-top: 1.5%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 65%;
+  font-weight: bold;
+}
+
+
 .front .card-content p:after{
   content: '';
   width: 4rem;

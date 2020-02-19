@@ -166,6 +166,20 @@
     -moz-animation: neonGlow 1.5s infinite alternate;
     animation: neonGlow 1.5s infinite alternate;
   }
+
+  .back2Para{
+    color: #333;
+    font-weight: 600;
+    font-family: 'Annie Use Your Telescope', cursive;
+  }
+
+  .author2 {
+    color: #ddd;
+    padding-top: 1.5%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 65%;
+    font-weight: bold;
+  }
   
   .front2 .card2-content p:after{
     content: '';
