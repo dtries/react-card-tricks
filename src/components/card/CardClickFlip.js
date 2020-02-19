@@ -43,7 +43,7 @@ class CardClickFlip extends Component {
   return (
     <div className="wrapper">
 
-      <h2>Whole Caboodle</h2>
+      <h2>Click Flip, Hover Color & Rotate</h2>
       
       <div className="flexColumns">
 

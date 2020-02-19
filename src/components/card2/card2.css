@@ -54,18 +54,29 @@
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
   }
+
+  .back2Links {
+    color: #fff999;
+    transition: 0.5s;
+
+  }
+
+  .back2Links:hover {
+    color: #bfff0090;
+  }
   
   .back2Link1 {
     position: absolute;
     bottom: 0;
     left: 10%;
-    /* width: 100%; */
+    text-decoration: none;
   }
   
   .back2Link2 {
     position: absolute;
     bottom: 0;
     right: 10%;
+    text-decoration: none;
   }
   
   .front2:after{	position: absolute;

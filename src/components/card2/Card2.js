@@ -23,11 +23,11 @@ class Card2 extends Component {
                                 <div className="card2-actions">
                                     <a 
                                         onClick={(e) => this.props.linkClick(e)}
-                                        className="back2Link1" href={this.props.link1} rel="noopener noreferrer" target="_blank">
+                                        className="back2Link1 back2Links" href={this.props.link1} rel="noopener noreferrer" target="_blank">
                                             Site 1 
                                     </a>
                                     <a 
-                                        onClick={(e) => this.props.linkClick(e)}className="back2Link2" href={this.props.link2} rel="noopener noreferrer" target="_blank"> 
+                                        onClick={(e) => this.props.linkClick(e)}className="back2Link2 back2Links" href={this.props.link2} rel="noopener noreferrer" target="_blank"> 
                                         Site 2
                                     </a>
                                 </div>
